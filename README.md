@@ -39,11 +39,10 @@ To develop a simple text-based system that allows:
 | README.md              | Project summary and usage instructions|
 | output_screenshot.png  | Screenshot of working program         |
 | student_management.exe | Compiled executable (Windows only)    |
-| Project_Report.pdf     | *(Optional)* Report for submission    |
 
 👨‍💻 How to Run  
-1. Open terminal in this folder
-2. Compile: g++ main.cpp -o bank
-3. Run: ./bank or bank.exe
+1. Open terminal in this folder  
+2. Compile: g++ student_management.cpp -o student  
+3. Run: ./student or student.exe
 
 🧑‍💻 Developed by: Aaliya Khan – C++ Intern at Pedestal Techno World
