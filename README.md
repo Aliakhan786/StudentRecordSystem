@@ -29,7 +29,7 @@ To develop a simple text-based system that allows:
 - Console-based UI only (no GUI)  
 
 📸 Sample Output  
-![Output Screenshot](output_screenshot.png)
+![Output Screenshot](output_sc.png)
 
 📂 File Structure  
 | File                   | Description                           |
