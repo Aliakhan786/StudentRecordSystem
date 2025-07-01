@@ -1,30 +1,51 @@
-------------------------------------------
-Student Record Management System (C++)
-------------------------------------------
+🎓 Student Record Management System (C++ Internship Project Task 1)
 
-📌 Objective:
-Create a command-line based system using file handling in C++ to manage student records.
+📌 Task Overview  
+This is **Task 1** of the **C++ Programming Internship**. It is a console-based system to manage student records using file handling in C++.
 
-✅ Features:
-- Add Student
-- View All Students
-- Search by Roll No
-- Update Student Record
-- Delete Student Record
+🎯 Objective  
+To develop a simple text-based system that allows:
 
-🛠️ Technologies Used:
-- Language: C++
-- Concepts: Structures, File I/O, Functions
-- File: students.dat (binary file)
+- Adding student records  
+- Viewing all student records  
+- Searching for a student by roll number  
+- Updating student records  
+- Deleting student records  
 
-📂 How to Run:
-1. Compile: g++ student_management.cpp -o student_management
-2. Run: ./student_management (Linux/macOS) or student_management.exe (Windows)
+📁 All data is stored persistently using file handling.
 
-🖥️ Input & Output:
-User can enter roll number, name, marks, and grade for students and perform operations through the menu.
+🛠️ Technologies Used  
+- **Language**: C++  
+- **Concepts**: Structures, File Handling (fstream), Functions, Binary Files  
 
-🧑‍💻 Developed by:
-Aaliya Khan – C++ Intern at Pedestal Techno World
+✅ Features Implemented  
+- Add new student record  
+- Display all student records  
+- Search student by roll number  
+- Update student information  
+- Delete student record  
+- Proper input/output formatting  
+- Developed using modular functions  
+- Console-based UI only (no GUI)  
 
-📅 Submission: Internship Task 1
+📸 Sample Output  
+![Output Screenshot](output_sc.png)
+
+
+📂 File Structure  
+
+| File                   | Description                           |
+|------------------------|---------------------------------------|
+| student_management.cpp | Complete student record system code   |
+| students.dat           | Binary file storing student records   |
+| README.md              | Project summary and usage instructions|
+| output_screenshot.png  | Screenshot of working program         |
+| student_management.exe | Compiled executable (Windows only)    |
+| Project_Report.pdf     | *(Optional)* Report for submission    |
+
+👨‍💻 How to Run  
+1. Open terminal in this folder
+2. Compile: g++ main.cpp -o bank
+3. Run: ./bank or bank.exe
+
+🧑‍💻 Developed by: Aaliya Khan – C++ Intern at Pedestal Techno World
